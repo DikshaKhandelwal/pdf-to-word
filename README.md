@@ -55,7 +55,7 @@ curl -X POST https://pdf-to-word-efye.onrender.com/convert/ \
 ## 📜 API Endpoints
 | Method | Endpoint          | Description                |
 |--------|------------------|----------------------------|
-| POST   | `/convert/`       | Upload a PDF and convert it to Word |
+| POST   | `/convert`       | Upload a PDF and convert it to Word |
 
 ---
 ## 🛠️ Tech Stack
