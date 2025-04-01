@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import axios from 'axios';
 import './UploadForm.css';
+const backendUrl = process.env.REACT_APP_BACKEND_URL;
 
 const UploadForm = ({ onConversionSuccess }) => {
   const [file, setFile] = useState(null);
@@ -64,7 +65,7 @@ const UploadForm = ({ onConversionSuccess }) => {
     formData.append('file', file);
     
     try {
-      const response = await axios.post("http://127.0.0.1:8000/convert/", formData, {
+      const response = await axios.post(backendUrl, formData, {
         responseType: 'blob',
         onUploadProgress: (progressEvent) => {
           const percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total);
