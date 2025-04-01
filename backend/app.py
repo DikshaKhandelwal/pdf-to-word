@@ -5,6 +5,9 @@ from converter import convert_pdf_to_word
 
 
 app = FastAPI()
+@app.get("/")
+def home():
+    return {"message": "PDF to Word API is running!"}
 
 
 UPLOAD_FOLDER = "uploads"
