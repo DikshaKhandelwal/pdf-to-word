@@ -24,7 +24,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.post("/convert/")
+@app.post("/convert")
 async def convert_pdf(file: UploadFile = File(...)):
     input_path = os.path.join(UPLOAD_FOLDER, file.filename)
     output_path = os.path.join(OUTPUT_FOLDER, file.filename.replace(".pdf", ".docx"))
