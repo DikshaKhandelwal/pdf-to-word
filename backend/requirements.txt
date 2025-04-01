@@ -29,6 +29,7 @@ attrs @ file:///C:/b/abs_35n0jusce8/croot/attrs_1695717880170/work
 Automat @ file:///tmp/build/80754af9/automat_1600298431173/work
 autopep8 @ file:///opt/conda/conda-bld/autopep8_1650463822033/work
 Babel @ file:///C:/ci_311/babel_1676427169844/work
+backend==0.2.4.1
 backports.functools-lru-cache @ file:///tmp/build/80754af9/backports.functools_lru_cache_1618170165463/work
 backports.tempfile @ file:///home/linux1/recipes/ci/backports.tempfile_1610991236607/work
 backports.weakref==1.0.post1
@@ -95,6 +96,7 @@ fastapi==0.115.8
 fastjsonschema @ file:///C:/ci_311/python-fastjsonschema_1679500568724/work
 ffmpeg==1.4
 filelock @ file:///C:/b/abs_f2gie28u58/croot/filelock_1700591233643/work
+fire==0.7.0
 flake8 @ file:///C:/ci_311/flake8_1678376624746/work
 Flask @ file:///C:/b/abs_efc024w7fv/croot/flask_1702980041157/work
 Flask-Cors==5.0.0
@@ -241,6 +243,7 @@ oauthlib==3.2.2
 openai==1.63.2
 openai-whisper==20240930
 opencv-python==4.11.0.86
+opencv-python-headless==4.11.0.86
 openpyxl==3.0.10
 opt_einsum==3.4.0
 optree==0.14.1
@@ -259,6 +262,7 @@ partd @ file:///C:/b/abs_46awex0fd7/croot/partd_1698702622970/work
 pathlib @ file:///Users/ktietz/demo/mc3/conda-bld/pathlib_1629713961906/work
 pathspec @ file:///C:/ci_311/pathspec_1679427644142/work
 patsy==0.5.3
+pdf2docx==0.5.8
 pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
 pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
 Pillow==9.5.0
@@ -302,6 +306,7 @@ pylint @ file:///C:/ci_311/pylint_1678740302984/work
 pylint-venv @ file:///C:/ci_311/pylint-venv_1678402170638/work
 pyls-spyder==0.4.0
 Pympler==1.1
+PyMuPDF==1.25.5
 PyNaCl @ file:///C:/ci_311/pynacl_1676445861112/work
 pyodbc @ file:///C:/b/abs_90kly0uuwz/croot/pyodbc_1705431396548/work
 pyOpenSSL @ file:///C:/b/abs_baj0aupznq/croot/pyopenssl_1708380486701/work
@@ -313,11 +318,13 @@ PyQtWebEngine==5.15.6
 PySocks @ file:///C:/ci_311/pysocks_1676425991111/work
 pytest @ file:///C:/b/abs_48heoo_k8y/croot/pytest_1690475385915/work
 python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-docx==1.1.2
 python-dotenv @ file:///C:/ci_311/python-dotenv_1676455170580/work
 python-json-logger @ file:///C:/b/abs_cblnsm6puj/croot/python-json-logger_1683824130469/work
 python-lsp-black @ file:///C:/ci_311/python-lsp-black_1678721855627/work
 python-lsp-jsonrpc==1.0.0
 python-lsp-server @ file:///C:/b/abs_catecj7fv1/croot/python-lsp-server_1681930405912/work
+python-multipart==0.0.20
 python-pptx==1.0.2
 python-slugify @ file:///tmp/build/80754af9/python-slugify_1620405669636/work
 python-snappy @ file:///C:/ci_311/python-snappy_1676446060182/work
