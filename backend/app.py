@@ -6,6 +6,7 @@ from converter import convert_pdf_to_word
 
 app = FastAPI()
 
+
 UPLOAD_FOLDER = "uploads"
 OUTPUT_FOLDER = "output"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
