@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pdf-to-word/static/css/main.688cb28e.css",
+    "main.js": "/pdf-to-word/static/js/main.c0312e67.js",
+    "static/js/453.8ab44547.chunk.js": "/pdf-to-word/static/js/453.8ab44547.chunk.js",
+    "index.html": "/pdf-to-word/index.html",
+    "main.688cb28e.css.map": "/pdf-to-word/static/css/main.688cb28e.css.map",
+    "main.c0312e67.js.map": "/pdf-to-word/static/js/main.c0312e67.js.map",
+    "453.8ab44547.chunk.js.map": "/pdf-to-word/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.688cb28e.css",
+    "static/js/main.c0312e67.js"
+  ]
+}
